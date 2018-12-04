@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5 {
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    line-height: 2em;
+    margin: 0;
+}
+
+p.normal {
+    line-height: 1.6em;
+}
