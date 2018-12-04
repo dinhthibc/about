@@ -1,0 +1,11 @@
+@media print {
+    body {
+        background-color: #fff;
+    }
+
+    .wrapper {
+        width: 100%;
+        box-shadow: none;
+        padding: 0;
+    }
+}

@@ -1,3 +1,155 @@
 body {
     font-family: 'Inconsolata', monospace;
+    padding: 20px;
+    margin: 0;
+    background-color: #e9ebee;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 7px 7px 7px #ccc;
+}
+
+header {
+    width: 100%;
+    display: block;
+}
+
+header .profile-picture {
+    width: 90%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 2px #ccc;
+    margin: 0 auto;
+}
+
+header h1.title {
+    line-height: 1.2em;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+header .subtitle {
+    margin-bottom: 10px;
+}
+
+header .personal-info .fa {
+    min-width: 24px;
+    text-align: center;
+}
+
+.section {
+    margin: 20px auto;
+    padding: 5px 0;
+    border-top: 1px solid #1e90ff;
+}
+
+.section .title {
+    text-align: center;
+    transform: translateY(-20px);
+    margin: 0 auto;
+    width: auto;
+}
+
+.section .title span {
+    padding: 0 20px;
+    background-color: #fff;
+}
+
+.text-blue {
+    color: #1e90ff;
+}
+
+.text-small {
+    font-size: 0.8em;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.row {
+    display: inline-grid;
+    grid-gap: 20px;
+    width: 100%;
+}
+
+.row.gap-50 {
+    grid-gap: 50px;
+}
+
+.row-3-9 {
+    grid-template-columns: 3fr 9fr;
+}
+
+.row-4-8 {
+    grid-template-columns: 4fr 8fr;
+}
+
+.row-5-7 {
+    grid-template-columns: 5fr 7fr;
+}
+
+.row-6-6 {
+    grid-template-columns: 6fr 6fr;
+}
+
+ul.skills {
+    padding: 0;
+    margin: 0;
+}
+
+ul.skills li {
+    width: 100%;
+    display: inline-grid;
+    grid-gap: 20px;
+    grid-template-columns: 6fr 6fr;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+ul.skills li .dots {
+    text-align: right;
+}
+
+ul.skills li .dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1e90ff;
+}
+
+ul.skills li.level-1 .dots .dot:nth-child(n+2) {
+    background-color: #ccc;
+}
+ul.skills li.level-2 .dots .dot:nth-child(n+3) {
+    background-color: #ccc;
+}
+ul.skills li.level-3 .dots .dot:nth-child(n+4) {
+    background-color: #ccc;
+}
+ul.skills li.level-4 .dots .dot:nth-child(n+5) {
+    background-color: #ccc;
+}
+ul.skills li.level-5 .dots .dot:nth-child(n+6) {
+    background-color: #ccc;
+}
+ul.skills li.level-6 .dots .dot:nth-child(n+7) {
+    background-color: #ccc;
+}
+ul.skills li.level-7 .dots .dot:nth-child(n+8) {
+    background-color: #ccc;
+}
+ul.skills li.level-8 .dots .dot:nth-child(n+9) {
+    background-color: #ccc;
+}
+ul.skills li.level-9 .dots .dot:nth-child(n+10) {
+    background-color: #ccc;
+}
+ul.skills li.level-10 .dots .dot:nth-child(n+11) {
+    background-color: #ccc;
 }
