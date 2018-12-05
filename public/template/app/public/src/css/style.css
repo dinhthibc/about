@@ -59,12 +59,25 @@ header .personal-info .fa {
     background-color: #fff;
 }
 
+a, a:hover, a:visited {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
 .text-blue {
     color: #1e90ff;
 }
 
 .text-small {
     font-size: 0.8em;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .margin-top {
@@ -152,4 +165,59 @@ ul.skills li.level-9 .dots .dot:nth-child(n+10) {
 }
 ul.skills li.level-10 .dots .dot:nth-child(n+11) {
     background-color: #ccc;
+}
+
+.section.experience > .section-content {
+    padding: 5px 0;
+}
+
+.section.experience > .section-content .project-name {
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.section.experience > .section-content .project-role,
+.section.experience > .section-content .project-duration {
+    line-height: 1.3em;
+}
+
+.section.experience > .section-content ul.project-rate {
+    margin: 2px 0;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+.section.experience > .section-content ul.project-rate li {
+    display: inline-block;
+    color: #f39c12;
+}
+
+.section.experience > .section-content ul.project-rate.rate-1 li:nth-child(n+2) {
+    color: #ccc;
+}
+
+.section.experience > .section-content ul.project-rate.rate-2 li:nth-child(n+3) {
+    color: #ccc;
+}
+
+.section.experience > .section-content ul.project-rate.rate-3 li:nth-child(n+4) {
+    color: #ccc;
+}
+
+.section.experience > .section-content ul.project-rate.rate-4 li:nth-child(n+5) {
+    color: #ccc;
+}
+
+.section.experience > .section-content ul.project-rate.rate-5 li:nth-child(n+6) {
+    color: #ccc;
+}
+
+.section ul.achievement {
+    margin: 0;
+    padding: 0;
+}
+
+.section ul.achievement li {
+    list-style-type: none;
+    line-height: 2em;
 }

@@ -1,6 +1,11 @@
 @media print {
     body {
         background-color: #fff;
+        padding: 0;
+    }
+
+    .personal-info p {
+        font-size: 0.8em;
     }
 
     .wrapper {
@@ -8,4 +13,10 @@
         box-shadow: none;
         padding: 0;
     }
+
+    ul.skills li .dots .dot {
+        width: 8px;
+        height: 8px;
+    }
+
 }

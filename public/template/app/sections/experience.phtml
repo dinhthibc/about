@@ -1,0 +1,165 @@
+<?php
+$projects = [
+	[
+		'name' => 'BuzzHeat',
+		'url' => 'https://buzzheat.com',
+		'duration' => 'Mar 2016 - Present',
+		'role' => 'CTO',
+		'rate' => 5,
+		'tags' => ['LEMP', 'Redis', 'ffmpeg', 'VideoJS', 'GraphAPI', 'Firebase'],
+		'description' => 'BuzzHeat is an entertainment website which has many trending & viral videos on social network. We have algorithms to score these videos and tracking tool in order to serve the most popular and relevant videos for our users.'
+	],
+	[
+		'name' => 'My BlueBird',
+		'url' => '',
+		'duration' => 'Dec 2015 - Oct 2016',
+		'role' => 'Backend Developer',
+		'rate' => 5,
+		'tags' => ['Kafka', 'Docker', 'Golang', 'NodeJS', 'Postgres', 'Firebase'],
+		'description' => 'A booking application for BlueBird taxi corporation in Indonesia. I worked in the backend system to serve all requests from mobile & third-party via APIs with a complex architecture which is a micro-services system using Kafka message queue for communication bus between services written in Golang, NodeJS and RoR.'
+	],
+	[
+		'name' => 'WeRoster',
+		'url' => 'https://weroster.com.au',
+		'duration' => 'Nov 2017 - Present',
+		'role' => 'CTO',
+		'rate' => 5,
+		'tags' => ['LEMP', 'Redis'],
+		'description' => 'WeRoster is a rostering platform to build Anaesthetic theatre rosters for consultants and trainees in Australia hospitals. I designed the architect, infrastructure & built both backend with my own framework (<a href="https://packagist.org/packages/dinhthibc/feazy" target="_blank">Feazy</a>) - frontend for WeRoster and <span class="text-blue">the auto complete algorithm</span> to allow manager can assign suitable doctors, anaesthetic base on their availability & skills in seconds'
+	],
+	[
+		'name' => 'CloudWater',
+		'url' => '',
+		'duration' => 'Oct 2018 - Present',
+		'role' => 'Technical Lead',
+		'rate' => 4,
+		'tags' => ['NodeJS', 'LEMP', 'Redis', 'Docker', 'ReactJS', 'VTC Payment Gateway'],
+		'description' => 'CloudWater is a platform which allows Water Authority manage household, meter usages, customers, also collect water consumption both manually as present & sync automatically with IoT meter device. I work as software engineer to help junior developer build the micro-services & manage team following Agile methodology.'
+	],
+	[
+		'name' => 'Bitcoin Wallet Service',
+		'url' => '',
+		'duration' => 'Jun 2018 - Present',
+		'role' => 'Software Engineer',
+		'rate' => 4,
+		'tags' => ['Kafka', 'NodeJS', 'Bitcoin', 'Firebase'],
+		'description' => 'My friend ask me to build a crypto wallet app (Bitcoin & ETH token) and I started to build it from scratch. I created my own Bitcoin Node on AWS and integrate with Exchange platform via Kafka Message Queue to allow traders can create a deposit address & able to withdraw BTC to other address.'
+	],
+	[
+		'name' => 'TravaMove',
+		'url' => 'https://beta.travamove.com/',
+		'duration' => 'Jun 2018 - Present',
+		'role' => 'CTO',
+		'rate' => 3,
+		'tags' => ['LEMP', 'jQuery'],
+		'description' => 'I founded a team with both designer, backend, frontend & mobile developer in Jun 2018 to build TravaMove which allow users create their own trip base on some available plan to help them reduce time for planning where to visit, where to eat,... and services booking as well.'
+	],
+	[
+		'name' => 'AntWarrior',
+		'url' => 'https://antwarrior.com',
+		'duration' => 'Oct 2018 - Nov 2018',
+		'role' => 'Software Engineer',
+		'rate' => 3,
+		'tags' => ['LEMP', 'jQuery'],
+		'description' => 'My friend sells t-shirt on Amazon and he asked me to build AntWarrior to allow his team can improve their current performance to design logo, add to t-shirt mockup then upload to Amazon. In fact, AntWarrior helps them reduce the time ~50% to deliver the final shirt without do anything manually as before.'
+	],
+	[
+		'name' => '8GiaiTri',
+		'url' => 'http://8giaitri.vn',
+		'duration' => 'Jan 2017 - May 2017',
+		'role' => 'Software Engineer',
+		'rate' => 3,
+		'tags' => ['LEMP', 'Redis', 'ffmpeg', 'VideoJS'],
+		'description' => 'BuzzHeat cooperated with Mobifone to launch new video platform for them as a Telco service, I built the 8GiaiTri frontpage & CMS to manage videos which are synced from BuzzHeat.'
+	],
+	[
+		'name' => 'BuzzMetrics',
+		'url' => 'https://buzzmetrics.com/en/',
+		'duration' => 'Mar 2013 - Aug 2015',
+		'role' => 'Technical Lead',
+		'rate' => 3,
+		'tags' => ['LEMP', 'jQuery'],
+		'description' => 'Buzzmetrics’ Enterprise Scalable & Cloud Based Big Data technology aggregates all social conversations across social networks, forums, blogs and News into one single platform. I built all the UI stuff with charts & exporting functionality for research team & clients.'
+	],
+	[
+		'name' => 'SportsClick',
+		'url' => 'https://sportsclick.my',
+		'duration' => 'May 2017 - Aug 2017',
+		'role' => 'Software Engineer',
+		'rate' => 3,
+		'tags' => ['LEMP', 'jQuery', 'JWT', 'BigCommerce'],
+		'description' => 'SportsClick is an e-commerce website to sell sport clothing & equipments in Malaysia. I joined to rebuild the new website base on developing a new rewards app connecting to BigCommerce for them.'
+	],
+	[
+		'name' => 'Delta Pharmacy Store',
+		'url' => '',
+		'duration' => 'Jan 2017 - March 2017',
+		'role' => 'Software Engineer',
+		'rate' => 3,
+		'tags' => ['OpenCart', 'jQuery'],
+		'description' => 'It\'s an online pharmacy store which located its stock in KiotViet system (ERP platform). I used OpenCart to build the online store and sent request to get the products catalog in KiotViet.'
+	],
+	[
+		'name' => 'Focus Travel',
+		'url' => 'http://www.focusvietnam.com/',
+		'duration' => 'Sep 2018 - Nov 2018',
+		'role' => 'Software Engineer',
+		'rate' => 2,
+		'tags' => ['LEMP', 'jQuery'],
+		'description' => 'Focus Travel team needs a website to introduce their available services & tour packages. I built all the landing page base on the design, added transitions, responsive design by myself. Then they asked to have the CMS to manage these thing and I just took 1 week to finish it from scratch.'
+	],
+	[
+		'name' => 'Pharmalink',
+		'url' => '',
+		'duration' => 'Sep 2015 - Oct 2015',
+		'role' => 'Full-stack Developer',
+		'rate' => 2,
+		'tags' => ['LEMP', 'jQuery'],
+		'description' => 'It\'s a sales management dashboard for all Pharmacity\'s stores to helps manager can easily manage their sales, revenue.'
+	],
+	[
+		'name' => 'AdsBox',
+		'url' => 'https://sportsclick.my',
+		'duration' => 'Oct 2015 - Oct 2015',
+		'role' => 'Front End Developer',
+		'rate' => 2,
+		'tags' => ['jQuery'],
+		'description' => 'AdsBox consists of a hardware connecting to any screen through HDMI and a software media management system. Together, this solution allows you to manage and control your media. I built the media management site for coporate admin to update scheduling for all devices.'
+	],
+	[
+		'name' => 'Others',
+		'url' => '',
+		'duration' => 'In my free time',
+		'role' => 'Software Engineer',
+		'rate' => 2,
+		'description' => 'There are some landing pages, simple apps & tools to make the life easier and keep me love programming.'
+	]
+];
+
+?>
+
+<div class="section experience">
+	<h2 class="title text-blue"><span>Work experience</span></h2>
+	<?php foreach ($projects as $project) { ?>
+	<div class="section-content row row-3-9">
+		<div>
+			<?php if ($project['url']) { ?>
+				<a href="<?php echo $project['url']; ?>" target="_blank"><h4 class="project-name text-blue"><?php echo $project['name']; ?></h4></a>
+			<?php } else { ?>
+				<h4 class="project-name text-blue"><?php echo $project['name']; ?></h4>
+			<?php } ?>
+
+			<ul class="project-rate rate-<?php echo $project['rate']; ?>">
+				<?php for ($i = 0; $i < 5; $i++) { ?>
+				<li><i class="fa fa-star"></i></li>
+				<?php } ?>
+			</ul>
+			<p class="project-role"><?php echo $project['role']; ?></p>
+			<p class="project-duration"><?php echo $project['duration']; ?></p>
+		</div>
+		<div>
+			<p><?php echo $project['description']; ?></p>
+		</div>
+	</div>
+	<?php } ?>
+</div>

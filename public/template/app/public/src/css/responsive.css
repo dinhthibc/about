@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1060px) {
+    body {
+        padding: 5px;
+    }
+
+    .wrapper {
+        width: calc(100% - 40px);
+        box-shadow: 4px 4px 4px #ccc;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    header .profile-picture {
+        width: 200px;
+    }
+
+    header h1.title, header .subtitle {
+        text-align: center;
+    }
+
+    .row-3-9 {
+        grid-template-columns: 1fr
+    }
+
+    .section.experience>.section-content {
+        grid-gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .row-6-6 {
+        grid-template-columns: 1fr
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    .row-5-7 {
+        grid-template-columns: 1fr
+    }
+
+    ul.skills li .dots .dot {
+        width: 7px;
+        height: 7px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    /*==== iPhone 5/5s landscape =======*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
