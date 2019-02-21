@@ -111,6 +111,10 @@ a, a:hover, a:visited {
     grid-template-columns: 5fr 7fr;
 }
 
+header .row-5-7 {
+    grid-template-columns: 4fr 8fr;
+}
+
 .row-6-6 {
     grid-template-columns: 6fr 6fr;
 }
