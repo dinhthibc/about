@@ -34,7 +34,7 @@
 }
 
 @media only screen and (max-width: 667px) {
-    .row-5-7 {
+    .row-5-7, header .row-5-7 {
         grid-template-columns: 1fr
     }
 
