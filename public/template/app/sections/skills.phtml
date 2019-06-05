@@ -17,13 +17,13 @@ $frontendSkills = [
 
 ?>
 
-<div class="section">
+<div class="section skills animated-section">
 	<h2 class="title text-blue"><span>Skills</span></h2>
 	<div class="section-content row row-6-6 gap-50">
 		<div>
 			<ul class="skills">
 				<?php foreach ($backendSkills as $skill) { ?>
-					<li class="level-<?php echo $skill['level'] ?>">
+					<li class="level-<?php echo $skill['level'] ?> animated-item">
 						<span class="name"><?php echo $skill['name'] ?></span>
 						<span class="dots">
 							<?php for ($i = 0; $i < 10; $i++) { ?>
@@ -34,14 +34,14 @@ $frontendSkills = [
 				<?php } ?>
 			</ul>
 
-			<p class="text-small normal margin-top">
+			<p class="text-small normal margin-top animated-item">
 				<em>I love designing overall architect, scalable system, problem solving, optimise performance & deployment process.</em>
 			</p>
 		</div>
 		<div>
 			<ul class="skills">
 				<?php foreach ($frontendSkills as $skill) { ?>
-					<li class="level-<?php echo $skill['level'] ?>">
+					<li class="level-<?php echo $skill['level'] ?> animated-item">
 						<span class="name"><?php echo $skill['name'] ?></span>
 						<span class="dots">
 							<?php for ($i = 0; $i < 10; $i++) { ?>
@@ -52,7 +52,7 @@ $frontendSkills = [
 				<?php } ?>
 			</ul>
 
-			<p class="text-small normal margin-top">
+			<p class="text-small normal margin-top animated-item">
 				<em>I love playing with DOM rendering, creating animation with CSS3 and making wireframe designs come true</em>
 			</p>
 		</div>
