@@ -1,13 +1,31 @@
 <?php
 $projects = [
 	[
+		'name' => 'Nextgen - Standard Chartered',
+		'url' => '',
+		'duration' => 'Since Aug 2020',
+		'role' => 'React Developer',
+		'rate' => 5,
+		'tags' => [],
+		'description' => 'The bank wanted to rebuild the current online banking app for both web & mobile platform. I\'m working with React - Typescript to build the web UI. I was helping the team to solve many challenges here such as SVG charts, auto logout, adaptive design, theming,... We\'re using Monorepo to manage the codebase, Storybook for re-use components, Cypress for E2E testing, TailwindCSS for styling.'
+	],
+	[
+		'name' => 'TIP - DFS',
+		'url' => 'https://www.dfs.com/',
+		'duration' => 'Sep 2019 - Jun 2020',
+		'role' => 'Full Stack Developer',
+		'rate' => 4,
+		'tags' => [],
+		'description' => 'DFS wanted to build TIP - a reward & referral system for the tour leaders who lead a tourist group to visit their stores. I was working in TIP as a Full Stack Developer to build API in PHP & the UI in React.'
+	],
+	[
 		'name' => 'WeRoster',
 		'url' => 'https://weroster.com.au',
 		'duration' => 'Since Nov 2017',
 		'role' => 'Senior Software Engineer',
 		'rate' => 5,
 		'tags' => ['LEMP', 'Redis'],
-		'description' => 'WeRoster is a rostering platform to build Anaesthetic theatre rosters for consultants and trainees in Australia hospitals. I designed the architect, infrastructure & built both backend with my own framework (<a href="https://packagist.org/packages/dinhthibc/feazy" target="_blank">Feazy</a>) - frontend for WeRoster and <span class="text-blue">the auto complete algorithm</span> to allow manager can assign suitable doctors, anaesthetic base on their availability & skills in seconds'
+		'description' => 'WeRoster is a rostering platform to build Anaesthetic theatre rosters for consultants and trainees in Australia hospitals. I designed the architect, infrastructure & built the entire application for WeRoster within <span class="text-blue">the auto complete algorithm</span> to allow manager can assign suitable doctors, anaesthetic base on their availability & department, priority,...'
 	],
 	[
 		'name' => 'BuzzHeat',
@@ -16,25 +34,16 @@ $projects = [
 		'role' => 'Senior Software Engineer',
 		'rate' => 5,
 		'tags' => ['LEMP', 'Redis', 'ffmpeg', 'VideoJS', 'GraphAPI', 'Firebase'],
-		'description' => 'BuzzHeat is an entertainment website which has many trending & viral videos on social network. We have algorithms to score these videos and tracking tool in order to serve the most popular and relevant videos for our users.'
+		'description' => 'BuzzHeat is an entertainment website which has many trending & viral videos on social network. We have algorithms to score these videos and tracking tool in order to serve the most popular and relevant videos to our users. I was working as a CTO to lead the team and we got many positive results for the first 2 years. Unfortunately, Facebook rolled out Facebook Watch so we kept losing our users then we had to close the team & operation but I learned a lot from this failure.'
 	],
 	[
 		'name' => 'My BlueBird',
-		'url' => '',
+		'url' => 'https://apps.apple.com/id/app/mybluebird-taxi/id476533261',
 		'duration' => '1 year 1 month',
 		'role' => 'Backend Developer',
 		'rate' => 5,
 		'tags' => ['Kafka', 'Docker', 'Golang', 'NodeJS', 'Postgres', 'Firebase'],
-		'description' => 'A booking application for BlueBird taxi corporation in Indonesia. I worked in the backend system to serve all requests from mobile & third-party via APIs with a complex architecture which is a micro-services system using Kafka message queue for communication bus between services written in Golang, NodeJS and RoR.'
-	],
-	[
-		'name' => 'CloudWater',
-		'url' => '',
-		'duration' => 'Since Oct 2018',
-		'role' => 'Senior Software Engineer',
-		'rate' => 4,
-		'tags' => ['NodeJS', 'LEMP', 'Redis', 'Docker', 'ReactJS', 'VTC Payment Gateway'],
-		'description' => 'CloudWater is a platform which allows Water Authority manage household, meter usages, customers, also collect water consumption both manually as present & sync automatically with IoT meter device. I work as software engineer to help junior developer build the micro-services & manage team following Agile methodology.'
+		'description' => 'A ride-hailing application for BlueBird corporation in Indonesia. I was working in the backend system to serve all requests from mobile & third-party via APIs with a complex architecture which is an event driven system using Kafka message queue within Golang and NodeJS.'
 	],
 	[
 		'name' => 'Bitcoin Wallet Service',
@@ -43,25 +52,16 @@ $projects = [
 		'role' => 'Software Engineer',
 		'rate' => 4,
 		'tags' => ['Kafka', 'NodeJS', 'Bitcoin', 'Firebase'],
-		'description' => 'My friend ask me to build a crypto wallet app (Bitcoin & ETH token) and I started to build it from scratch. I created my own Bitcoin Node on AWS and integrate with Exchange platform via Kafka Message Queue to allow traders can create a deposit address & able to withdraw BTC to other address.'
+		'description' => 'My friend asked me to build a crypto wallet app (Bitcoin & ETH token) and I started developing it from scratch. I was creating the Bitcoin Node on AWS and integrate with Exchange platform via Kafka Message Queue to allow traders can create a deposit address & able to withdraw BTC to their wallets.'
 	],
-//	[
-//		'name' => 'TravaMove',
-//		'url' => 'https://beta.travamove.com/',
-//		'duration' => '6 months',
-//		'role' => 'CTO',
-//		'rate' => 3,
-//		'tags' => ['LEMP', 'jQuery'],
-//		'description' => 'I founded a team with both designer, backend, frontend & mobile developer in Jun 2018 to build TravaMove which allow users create their own trip base on some available plan to help them reduce time for planning where to visit, where to eat,... and services booking as well.'
-//	],
 	[
-		'name' => 'AntWarrior',
-		'url' => 'https://antwarrior.com',
+		'name' => 'IAmAmz',
+		'url' => '',
 		'duration' => '2 months',
 		'role' => 'Software Engineer',
 		'rate' => 3,
 		'tags' => ['LEMP', 'jQuery'],
-		'description' => 'My friend sells t-shirt on Amazon and he asked me to build AntWarrior to allow his team can improve their current performance to design logo, add to t-shirt mockup then upload to Amazon. In fact, AntWarrior helps them reduce the time ~50% to deliver the final shirt without do anything manually as before.'
+		'description' => 'My friend sells t-shirt on Amazon and he asked me to build IAmAmz tool to allow his team can improve their current performance to design logo, add to t-shirt mockup before uploading to Amazon store. It helps them reduce the time ~50% to deliver the final shirt without do anything manually as before. This web application is written in Golang which will run locally on customer machine and the generated images will be synced to S3 to leverage the performance.'
 	],
 	[
 		'name' => '8GiaiTri',
@@ -70,7 +70,16 @@ $projects = [
 		'role' => 'Software Engineer',
 		'rate' => 3,
 		'tags' => ['LEMP', 'Redis', 'ffmpeg', 'VideoJS'],
-		'description' => 'BuzzHeat cooperated with Mobifone to launch new video platform for them as a Telco service, I built the 8GiaiTri frontpage & CMS to manage videos which are synced from BuzzHeat.'
+		'description' => 'BuzzHeat cooperated with Mobifone to launch new video platform for them as a Telco service, I built the 8GiaiTri frontpage & CMS to manage videos that are synced from BuzzHeat.'
+	],
+	[
+		'name' => 'Anamarina',
+		'url' => 'https://www.anamarina.com',
+		'duration' => '3 months',
+		'role' => 'Software Engineer',
+		'rate' => 3,
+		'tags' => [],
+		'description' => 'Anamarina is a landing page to introduce their services. This is the first time I\'ve applied all animations, motions & parallax scrolling from scratch by working closely with the designer. '
 	],
 	[
 		'name' => 'BuzzMetrics',
@@ -79,7 +88,7 @@ $projects = [
 		'role' => 'Software Engineer',
 		'rate' => 3,
 		'tags' => ['LEMP', 'jQuery'],
-		'description' => 'Buzzmetrics’ Enterprise Scalable & Cloud Based Big Data technology aggregates all social conversations across social networks, forums, blogs and News into one single platform. I built all the UI stuff with charts & exporting functionality for research team & clients.'
+		'description' => 'Buzzmetrics’ Enterprise Scalable & Cloud Based Big Data technology aggregates all social conversations across social networks, forums, blogs and News into one single platform. I was developing all the UI stuff with charts & exporting functionality for research team & clients.'
 	],
 	[
 		'name' => 'SportsClick',
@@ -88,7 +97,7 @@ $projects = [
 		'role' => 'Software Engineer',
 		'rate' => 3,
 		'tags' => ['LEMP', 'jQuery', 'JWT', 'BigCommerce'],
-		'description' => 'SportsClick is an e-commerce website to sell sport clothing & equipments in Malaysia. I joined to rebuild the new website base on developing a new rewards app connecting to BigCommerce for them.'
+		'description' => 'SportsClick is an e-commerce website to sell sport clothing & equipments in Malaysia. I was helping to rebuild the new website & CMS system connecting to BigCommerce using PHP - jQuery.'
 	],
 	[
 		'name' => 'Delta Pharmacy Store',
@@ -101,24 +110,15 @@ $projects = [
 	],
 	[
 		'name' => 'Focus Travel',
-		'url' => 'http://www.focusvietnam.com/',
+		'url' => 'http://www.focusvietnam.com',
 		'duration' => '3 months',
 		'role' => 'Software Engineer',
 		'rate' => 2,
 		'tags' => ['LEMP', 'jQuery'],
-		'description' => 'Focus Travel team needs a website to introduce their available services & tour packages. I built all the landing page base on the design, added transitions, responsive design by myself. Then they asked to have the CMS to manage these thing and I just took 1 week to finish it from scratch.'
+		'description' => 'Focus Travel team wanted to have a website to introduce their available services & tour packages. I was building all the landing page within the animation, responsive design by own library and also a CMS system to help them manage the content.'
 	],
-//	[
-//		'name' => 'AdsBox',
-//		'url' => 'https://sportsclick.my',
-//		'duration' => 'Oct 2015 - Oct 2015',
-//		'role' => 'Front End Developer',
-//		'rate' => 2,
-//		'tags' => ['jQuery'],
-//		'description' => 'AdsBox consists of a hardware connecting to any screen through HDMI and a software media management system. Together, this solution allows you to manage and control your media. I built the media management site for coporate admin to update scheduling for all devices.'
-//	],
 	[
-		'name' => 'Others',
+		'name' => 'And more',
 		'url' => '',
 		'duration' => 'In my free time',
 		'role' => 'Software Engineer',
@@ -130,12 +130,14 @@ $projects = [
 ?>
 
 <div class="section experience animated-section">
-	<h2 class="title text-blue"><span>Work experience</span></h2>
+	<h2 class="title text-blue"><span>Projects</span></h2>
 	<?php foreach ($projects as $project) { ?>
 	<div class="section-content row row-3-9 animated-item">
 		<div>
 			<?php if ($project['url']) { ?>
-				<a href="<?php echo $project['url']; ?>" target="_blank"><h4 class="project-name text-blue"><?php echo $project['name']; ?></h4></a>
+				<a href="<?php echo $project['url']; ?>" target="_blank">
+					<h4 class="project-name text-blue"><span class="text-blue"><?php echo $project['name']; ?> <i class="fa fa-external-link"></i></span></h4>
+				</a>
 			<?php } else { ?>
 				<h4 class="project-name text-blue"><?php echo $project['name']; ?></h4>
 			<?php } ?>
