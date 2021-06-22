@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Open Sans', sans-serif;
     padding: 20px;
     margin: 0;
     background-color: #e9ebee;
@@ -36,6 +36,7 @@ header h1.title {
     line-height: 1.2em;
     font-size: 2.3em;
     font-weight: bold;
+    letter-spacing: 6px;
 }
 
 header .subtitle {
@@ -48,7 +49,7 @@ header .personal-info .fa {
 }
 
 .section {
-    margin: 20px auto;
+    margin: 25px auto;
     padding: 5px 0;
     border-top: 1px solid #1e90ff;
 }
@@ -58,6 +59,7 @@ header .personal-info .fa {
     transform: translateY(-20px);
     margin: 0 auto;
     width: auto;
+    letter-spacing: 5px;
 }
 
 .section .title span {
@@ -222,6 +224,14 @@ ul.skills li.level-10 .dots .dot:nth-child(n+11) {
     color: #ccc;
 }
 
+.section.experience .tags li {
+    display: inline-block;
+    padding: 2px 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
 .section ul.achievement {
     margin: 0;
     padding: 0;
@@ -229,7 +239,7 @@ ul.skills li.level-10 .dots .dot:nth-child(n+11) {
 
 .section ul.achievement li {
     list-style-type: none;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 #achievement {
